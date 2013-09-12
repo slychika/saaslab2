@@ -16,7 +16,7 @@ class HelloWorldClass
 end
 
 # Test Case 1:
-p "This is a test for Hello World"
+#p "This is a test for Hello World"
 hello = HelloWorldClass.new("Heather Dykstra")
 hello.sayHi
 
@@ -34,16 +34,16 @@ def count_words(string)
 end
 
 # Test Case 2:
-p "We will test 'mom' to see if it is a palindrome"
-p palindrome?("mom")
+#p "We will test 'mom' to see if it is a palindrome"
+#p palindrome?("mom")
 
 # Test Case 3:
-p "We will test 'word' to see if it is a palindrome"
-p palindrome?("word")
+#p "We will test 'word' to see if it is a palindrome"
+#p palindrome?("word")
 
 # Test Case 4:
-p "We will test 'this is a test' for number of words"
-p count_words("this is a test")
+#p "We will test 'this is a test' for number of words"
+#p count_words("this is a test")
 
 #-----------------------------------------------------------------------
 
@@ -78,19 +78,19 @@ end
 end
 
 # Test Case 5:
-p "This will test a basic tournament array. Richard should win"
-p rps_tournament_winner(
-[
-    [
-        [ ["Armando", "P"], ["Dave", "S"] ],
-        [ ["Richard", "R"],  ["Michael", "S"] ],
-    ],
-    [
-        [ ["Allen", "S"], ["Omer", "P"] ],
-        [ ["David E.", "R"], ["Richard X.", "P"] ]
-    ]
-]
-)
+#p "This will test a basic tournament array. Richard should win"
+#p rps_tournament_winner(
+#[
+#    [
+#        [ ["Armando", "P"], ["Dave", "S"] ],
+#        [ ["Richard", "R"],  ["Michael", "S"] ],
+#    ],
+#    [
+#        [ ["Allen", "S"], ["Omer", "P"] ],
+#        [ ["David E.", "R"], ["Richard X.", "P"] ]
+#    ]
+#]
+#)
 
 #-----------------------------------------------------------------------
 
@@ -100,8 +100,8 @@ def combine_anagrams(words)
 end
 
 # Test Case 6:
-p "This should give you new arrays with lists of anagram words together"
-p combine_anagrams(['cars', 'for', 'hello', 'racs', 'four', 'flour', 
-'rain', 'niar'])
+#p "This should give you new arrays with lists of anagram words together"
+#p combine_anagrams(['cars', 'for', 'hello', 'racs', 'four', 'flour', 
+#'rain', 'niar'])
 
 #-----------------------------------------------------------------------
