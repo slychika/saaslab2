@@ -2,6 +2,7 @@
 # September 11, 2013
 # Lab 2 
 # Michael Williams and I worked as a pair on this assignment
+# This can also be found in https://github.com/slychika/saaslab2
 
 #-----------------------------------------------------------------------
 
